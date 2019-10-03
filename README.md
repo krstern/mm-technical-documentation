@@ -13,4 +13,4 @@
 
 #### Machine Motion Software Upgrade
 
-[How-to-Guide: Machine Software Upgrade](__documentation\How-to-Guide--MachineMotion_Software_Upgrade/How-to-Guide--MachineMotion_Software_Upgrade.md)
+[How-to-Guide: Machine Software Upgrade](__documentation/How-to-Guide--MachineMotion_Software_Upgrade/How-to-Guide--MachineMotion_Software_Upgrade.md)
