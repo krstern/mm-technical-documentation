@@ -16,7 +16,7 @@ The single-board computer (SBC) inside the MachineMotion controller contains an 
 
 - If you have previously been developing programs using MachineLogic on the MachineMotion controller, you will have to create a backup for these programs. Open your MachineLogic programs and download the ones you would like to save on your local computer by selecting the download feature indicated in Figure 1.
 
-<p style="text-align:center;" ><img src="media/Machine_logic.png" width="70%" height="70%" style="border:1px solid grey;"></p>
+<p style="text-align:center;" ><img src="media/machine_logic.png" width="70%" height="70%" style="border:1px solid grey;"></p>
 
 <p style="text-align: center;"><span style="color: #808080; font-size: 11pt;"><em>Figure 1: Download feature on MachineLogic</em></p>
 
