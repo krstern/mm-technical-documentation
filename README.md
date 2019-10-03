@@ -9,7 +9,7 @@
 
 #### Connecting to MachineMotion
 
-[How-to-Guide: Connecting to MachineMotion](__documentation/quick_start/machine_motion--quickstart.md)
+[How-to-Guide: Connecting to MachineMotion](__documentation/How-to-Guide--Connecting_to_MachineMotion/How-to-Guide--Connecting_to_MachineMotion.md)
 
 #### Machine Motion Software Upgrade
 

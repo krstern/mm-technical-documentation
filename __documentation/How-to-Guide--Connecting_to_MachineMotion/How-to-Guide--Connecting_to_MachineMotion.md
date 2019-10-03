@@ -1,4 +1,4 @@
-## Connecting to MachineMotion
+## How-to-Guide Connecting to MachineMotion
 
 MachineMotion offers several connection options to interact with external devices. More precisely, three communication methods are available.
 

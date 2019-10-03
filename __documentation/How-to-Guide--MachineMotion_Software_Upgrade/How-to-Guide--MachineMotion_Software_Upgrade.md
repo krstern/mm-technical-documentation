@@ -1,4 +1,4 @@
-# MachineMotion SBC Software Upgrade Manual
+# How-to-Guide: Machine Software Upgrade
 
 ### Overview
 The single-board computer (SBC) inside the MachineMotion controller contains an SD-Card. The SD-Card is the SBC's hard disk and can be re-flashed. This enables fast and reliable software upgrades.
