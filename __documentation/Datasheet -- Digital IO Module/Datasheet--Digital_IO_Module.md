@@ -1,6 +1,6 @@
 ## Datasheet: Digital IO Module -- CE-MD-001-0001
 
-<p style="text-align:center;" ><img src="_media/CE-MD-001-0001.png" width="45%" height="45%"></p>
+<p style="text-align:center;" ><img src="_media/VEN_Parts_CE-MD-001-0001_01.png" width="75%" height="75%"></p>
 <p style="text-align: center;"><span style="color: #808080; font-size: 11pt;"><em>Figure 1: Digital IO Module</em></p>
 
 ### Table of Content
