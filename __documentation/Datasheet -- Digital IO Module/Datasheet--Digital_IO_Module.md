@@ -7,66 +7,65 @@
 [TOC]
 
 ### Overview
-The Digital IO Module extends the functionality of the MachineMotion controller with 4 industrial 24V inputs and 4 industrial 24V outputs. It is a plug-&-play module that only requires a single connection to MachineMotion controller. It comes ready to use with its associated 5 meters M12 cable.
+The Digital IO Module extends MachineMotion's functionality by adding four industrial 24-V inputs and four industrial 24-V outputs. It's a plug-and-play module that only requires a single connection to the MachineMotion controller, and comes ready to use with its associated 5-m M12 cable.
 
 #### Features
-- Configuration Free, Plug-&-Play
-- Digital Communication with the MachineMotion Controller
-- 4 x 24V Input Ports
-- 4 x 24V Output Ports
+- Configuration-free, plug and play
+- Communicates digitally with MachineMotion controller
+- 4 x 24 V input ports
+- 4 x 24 V output ports
 
-### Technical Specifications
+### Technical specifications [KRS: could you just call this "Specs"?]
 
-#### Input Ports
+#### Input ports
+| Name                          | Specification [KRS: "Spec"?]                 | Units [KRS: Please delete the units columns here, if it makes sense for the design. I think it's easier to read when the units are right next to the numbers in the same column.]
+|---                            |---                            |---    |
+| Electrical interface          | 10K-ohm pull-up resistor       | NA    |
+| Voltage range                 | 0 - 24 V                        | V     |
+| Transition voltage            | 9.025 V                         | V     |
+
+#### Output ports
 | Name                          | Specification                 | Units
 |---                            |---                            |---    |
-| Electrical Interface          | 10kohm pull-up resistor       | NA    |
-| Voltage Range                 | 0 - 24                        | V     |
-| Transition Voltage            | 9.025                         | V     |
-
-#### Output Ports
-| Name                          | Specification                 | Units
-|---                            |---                            |---    |
-| Electrical Interface          | Push-Pull Transistors         | NA    |
-| High Voltage Range            | 23 - 24                       | V     |
-| Low Voltage Range             | 0 - 1                         | V     |
-| Sourcing Current Range        | 0 - 75                        | mA    |
-| Sinking Current Range         | 0 - 100                       | mA    |
+| Electrical interface          | Push-pull transistors         | NA    |
+| High voltage range            | 23 - 24 V                     | V     |
+| Low voltage range             | 0 - 1 V                       | V     |
+| Sourcing current range        | 0 - 75 mA                    | mA    |
+| Sinking current range         | 0 - 100 mA                       | mA    |
 
 #### Pinout
-The Digital IO Module contains 4 inputs and 4 outputs, each of which is grouped with a 24V and 0V supply connection for convenient wiring to external devices. The Digital IO Module is also equipped with 8 LED's to visualize the input and output signals. The LED's are located on the sides of the enclosure.
+The Digital IO Module contains four inputs and four outputs, each of which is grouped with a 24 V and 0 V supply connection [KRS: are the 24 V and 0 V connections *two* separate connections? Say "with 24 V and 0 V supply connections".] for convenient wiring to external devices. The Digital IO Module is also equipped with 8 LEDs, located on the sides of the enclosure, that provide a visual display of the input and output signals.
 
 ##### Input / Output
 <p style="text-align:center;" ><img src="_media/digital_io_module_pinout_hq.png" width="60%" height="60%"></p>
-<p style="text-align: center;"><span style="color: #808080; font-size: 11pt;"><em>Figure 2: Digital IO Module Pinout.</em></p>
+<p style="text-align: center;"><span style="color: #808080; font-size: 11pt;"><em>Figure 2: Digital IO Module pinout.</em></p>
+[KRS: This seems like the first figure, so it should be Figure 1, no?]
 
-
-##### Input LED's
-| Signal Type   | State         | LED   |
+##### LEDs
+| Signal type   | State         | LED   |
 |---            |---            |---    |
 | Input         | High          |ON     |
 | Input         | Low           |OFF    |
 | Input         | Floating      |ON     |
-
-##### Output LED's
-| Signal Type   | State         | LED   |
+[KRS: Can you insert a horizonal bar or line break here in the chart, or something? I thought this would be better to put them all in the same table, rather than repeat the title and headings twice.]
 |---            |---            |---    |
 | Output        | High          |ON     |
 | Output        | Low           |OFF    |
 | Output        | Floating      |OFF    |
 
-##### M12 Connector Pinout
-| Pin Number    |Description        |
+##### M12 connector pinout
+| Pin number    |Description        |
 |---            |---                |
-| 1             | 24V               |
-| 2             | 0V                |
+| 1             | 24 V               |
+| 2             | 0 V                |
 | 3             | RS485 A           |
 | 4             | RS485 B           |
-| 5             | Not Used          |
-| 6             | Not Used          |
-| 7             | Not Used          |
-| 8             | shield / Earth    |
+| 5             | Not used          |
+| 6             | Not used          |
+| 7             | Not used          |
+| 8             | Shield (connected to earth)    | [KRS: Googled this. Seems like this is a better way to put it than "shield / Earth", but let me know if you don't like it.]
 
+[KRS: stopped here 6:35 pm, will get back to it in a few hours]
 
 ### Applications
 The Digital IO Module can be used to interface with external systems and devices that utilize 24V digital input/output control. Among others, the devices listed below are typical use cases.
@@ -110,11 +109,11 @@ The MachineLogic environment in ControlCenter also allows for control of the Dig
 
 
 #### MachineLogic
-The [MachineLogic]() programming interface also allows for the Digital IO Module.
+The [MachineLogic]() programming interface also allows for the Digital IO Module. [KRS: What do you mean by "also allows for"? Maybe "includes Digital IO Module options.", or something?]
 
-#### Python Programs
-Refer to the latest [Python API](https://github.com/VentionCo/mm-python-api) for further details on how to control the Digital IO Module with Python programs.
+#### Python programs
+Refer to the latest [Python API](https://github.com/VentionCo/mm-python-api) for details on how to control the Digital IO Module with Python programs.
 
 ### Notes
 - Missing Figure 5
-- Needs proof Reading
+- Needs proofreading
